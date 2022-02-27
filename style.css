@@ -22,14 +22,16 @@ a {
 
 a:hover {
 	text-decoration: none;
+	font-weight: bold;
+	
 }
 
 body {
 	font-size: 11pt;
 	line-height: 1.5em;
 	font-family: 'Trebuchet MS', sans-serif;
-	background: #1f1f1f url('images/bg.png');
-	color: #909090;
+	background: #1D2F3A; 
+	color: #d3d0d0;
 }
 
 strong {
@@ -110,19 +112,19 @@ ul {
 #copyright {
 	text-align: center;
 	padding: 8px 0 80px 0;
-	color: #404040;
+	color: #868686;
 	text-shadow: 0 1px 0 #101010;
 }
 
 #copyright a {
-	color: #404040;
+	color: #5e5c5c;
 }
 
 #footer {
 	position: relative;
 	padding: 32px;
 	width: 1116px;
-	color: #808080;
+	color: #cccccc;
 	margin-top: 16px;
 	text-shadow: 0 1px 0 #000000;
 }
@@ -146,7 +148,7 @@ ul {
 
 #footer ul li {
 	padding: 16px 0 16px 0;
-	border-top: solid 1px #353535;
+	border-top: solid 1px #585858;
 	border-bottom: solid 1px #101010;
 }
 
@@ -199,10 +201,10 @@ ul {
 	position: relative;
 	padding: 64px 32px 24px 32px;
 	width: 1116px;
-	background: #262626 url('images/cbg.png') top left repeat-x;
-	border-top: solid 1px #606060;
-	border-bottom: solid 1px #151515;
-	text-shadow: 0 1px 0 #101010;
+	background: #2E4B5C;
+	border-top: solid 1px #477088;
+	border-bottom: solid 1px #223744;
+	text-shadow: 0 1px 0 #000000;
 }
 
 #main ul {
@@ -256,11 +258,10 @@ ul {
 	height: 50px;
 	line-height: 50px;
 	top: 75px;
-	background: #6f2f2f url('images/navbg.png') top left repeat-x;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 1.4em;
+	font-size: 1.7em;
 	padding: 0 1em 0 1em;
-	border-top: solid 1px #ab6f6f;
+	
 }
 
 #nav a {
